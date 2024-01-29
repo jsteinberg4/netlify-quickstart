@@ -48,7 +48,7 @@ button:hover {
 .clipart {
   margin: auto;
   position: absolute;
-  /* bottom: 50px; */
+  bottom: 50px;
   /* left: 300px; */
   width: 30%; /* Adjust the size as needed */
   height: auto;
