@@ -45,14 +45,23 @@ button:hover {
   background-color: #303f9f;
 }
 
+/* .clipart { */
+/*   margin: auto; */
+/*   position: absolute; */
+/*   bottom: 50px; */
+/*   /* left: 300px; */
+/*   width: 30%; /* Adjust the size as needed */
+/*   height: auto; */
+/*   z-index: 0; /* Ensure the clipart is behind the container */
+/* } */
 .clipart {
-  margin: auto;
   position: absolute;
-  bottom: 50px;
-  /* left: 300px; */
-  width: 30%; /* Adjust the size as needed */
+  bottom: calc(33.33% - 50px); /* Adjust the percentage as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
   height: auto;
-  z-index: 0; /* Ensure the clipart is behind the container */
+  z-index: 0;
 }
 /* body { */
 /*   font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, */
