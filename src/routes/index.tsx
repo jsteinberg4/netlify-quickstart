@@ -11,7 +11,7 @@ export default function Home() {
           class="clipart"
         />
         <div class="container">
-          <h1>Welcome to Alleghany Block Party</h1>
+          <h1>Welcome to Alleghany Block Parties</h1>
           <p>Coming soon...</p>
         </div>
       </body>
