@@ -1,19 +1,21 @@
 import { Title } from "solid-start";
-import Counter from "~/components/Counter";
 
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
-      <Counter />
-      <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
-      </p>
+      <Title>Welcome to Block Party Boston</Title>
+      <body>
+        <img
+          src="https://assets-prd.punchdrink.com/wp-content/uploads/2017/02/Article-House-Rules-Stump.jpg"
+          alt="Tree Stump Clipart"
+          class="clipart"
+        />
+        <div class="container">
+          <h1>Welcome to Block Party Boston</h1>
+          <p>Coming soon...</p>
+          {/* <button onclick="redirectToEvents()">Explore Events</button> */}
+        </div>
+      </body>
     </main>
   );
 }
