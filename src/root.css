@@ -56,7 +56,7 @@ button:hover {
 /* } */
 .clipart {
   position: absolute;
-  bottom: calc(20% - 50px); /* Adjust the percentage as needed */
+  bottom: calc(10% - 50px); /* Adjust the percentage as needed */
   left: 50%;
   transform: translateX(-50%);
   width: 30%;
